@@ -3,9 +3,9 @@
 Технологии
 
 - Используйте Django как основной веб-фреймворк
-- Библиотеку [Re](https://w3schools.com/python/python_regex.asp) для работы с регулярными выражениями
+- Библиотеку [Re](https://w3schools.com/python/python_regex.asp) для работы с регулярными выражениями ([Что такое регулярки и зачем нужны](https://habr.com/ru/articles/545150/))
 - Простой фронтенд, использование только HTML будет достаточно
-- Так же может понадобится BeautifulSoup (bs4) для парсинга
+- Так же может понадобится [BeautifulSoup (bs4)](https://habr.com/ru/articles/544828/) для парсинга
 
 ##
 
