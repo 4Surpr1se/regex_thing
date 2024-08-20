@@ -17,9 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from regex_formatter.views import index
+from regex_formatter.views import index, index_simplified
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", index),
+    path("simple/", index_simplified),
 ]

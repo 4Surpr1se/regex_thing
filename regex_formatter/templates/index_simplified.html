@@ -68,30 +68,18 @@
     </div>
     <div class="form-group">
         <label for="format_str">Текст</label>
-        <div class="input-group">
-            <input type="hidden" id="format_str" name="format_str">
-            <div class="form-control" contenteditable="true" id="DivInput"
-                 style="height: 200px; width: 400px; padding: 10px;">
-                {{ format_placeholder }}
-            </div>
-        </div>
+        <textarea style="height: 200px; padding: 10px;" class="form-control" id="format_str"
+                  name="format_str">{{ format_str }}</textarea>
+    </div>
+    <div class="form-group">
+        <p>Проверенный текст</p>
+        <div class="form-control" style="height: 200px;" readonly>{{ format_placeholder }}</div>
     </div>
     <div class="form-group">
         <button type="submit" class="btn btn-primary">Проверить</button>
         <a style="margin-left: 10px; font-size: 14px; color: #666;">Количество повторений: {{ matches_count }}</a>
     </div>
 </form>
-<script>
-    document.getElementById('myForm').addEventListener('submit', function (event) {
-        console.log(document.getElementById('DivInput').innerHTML)
-        document.getElementById('format_str').value = document.getElementById('DivInput').textContent;
-    });
-    document.getElementById('DivInput').addEventListener('click', function () {
-        var spans = this.querySelectorAll('span');
-        Array.prototype.forEach.call(spans, function (span) {
-            span.replaceWith(span.textContent);
-        });
-    });
-</script>
+
 </body>
 </html>
