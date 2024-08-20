@@ -41,12 +41,17 @@
 придется углубиться во фронтенд и JavaScript. Поэтому советуем добавить отдельное неизменеямое поле, которое копирует ввод пользователя в отдельное поле и подсвечивает совпадения:
 
 ![img_2.png](readme_images/img_2.png)
-Нажимаем проверить
+
+- Нажимаем проверить
+
 ![img_2.png](readme_images/img_3.png)
-Так же, если регулярное выражение невалидно, сообщаем об этом пользователю:
+
+> Если все же решите сделать, как в примере и углубиться во фронтенд составляющую, то вам могут понадобится ```div``` с параметром [contenteditable](https://www.w3schools.com/tags/att_global_contenteditable.asp), ```input``` с параметром [type="hidden"](https://www.w3schools.com/tags/att_input_type_hidden.asp) и базовые методы объектов из JS, например, [.addEventListener](https://learn.javascript.ru/introduction-browser-events)
+
+- Так же, если регулярное выражение невалидно, сообщаем об этом пользователю:
+
 ![img_2.png](readme_images/img_4.png)
 
-- Если все же решите сделать, как в примере и углубиться во фронтенд составляющую, то вам могут понадобится ```div``` с параметром [contenteditable](https://www.w3schools.com/tags/att_global_contenteditable.asp), ```input``` с параметром [type="hidden"](https://www.w3schools.com/tags/att_input_type_hidden.asp) и базовые методы объектов из JS, например, [.addEventListener](https://learn.javascript.ru/introduction-browser-events)
 ##
 
 *Задание под звездочкой:
